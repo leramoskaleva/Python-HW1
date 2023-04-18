@@ -11,9 +11,10 @@ for i in range(n):
     x = int(input())
     if x == 0:         
         n1 += 1     
-    else:         
+    else:
         n2 += 1 
-        if n1 > n2:     
-            print(n1) 
-        else:     
-            print(n2)
+if n1 > n2:     
+    print(n1) 
+else:
+    print(n2)
+    
