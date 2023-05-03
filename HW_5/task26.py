@@ -5,7 +5,7 @@ def stepen_numbers(A, B):
     if (B == 1):
         return A
     if (B != 1):
-        return (A * stepen_numbers(A, B - 1))
+        return A * stepen_numbers(A, B - 1)
 
 
 A = int(input())
